@@ -72,7 +72,9 @@ npm run start
 // making changes in react app :-
 
 create a file in src folder <= add a function with return type and export it .(name of the function should be starting with capital) 
+
 import that function in "App.js" 
+
 while importing the import Basic from "./basic" the second basic should be with small letters.
 
 
