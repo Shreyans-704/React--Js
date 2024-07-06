@@ -2,6 +2,7 @@
 // Basic fundamentals of React - Js:-
 
 when you want to work on web pages you choose "react - dom". 
+
 when you want to work on building apps you use "react -native".
 
 npm - "node package manager".
