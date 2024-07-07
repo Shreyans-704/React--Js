@@ -22,6 +22,7 @@ npx - "node package executor". (exchanger)
 
 The "manifest.json" file is a crucial part of a web application, especially for Progressive Web Apps (PWAs). It provides metadata about the application, such as its name, icons, theme colors, and how it should behave when installed on a user's device. it helps the website to open on a phone .
 
+use this website for taking components for Website :- https://www.devui.io/components/product
 
 // Starting of the project :-
 
