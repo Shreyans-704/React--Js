@@ -5,7 +5,10 @@ when you want to work on web pages you choose "react - dom".
 
 when you want to work on building apps you use "react -native".
 
+"cd" means change directory. (takes to the specific folder)
+
 npm - "node package manager".
+
 npx - "node package executor". (exchanger)
 
 "package.json" is the entry point of the project, read the name of the project, version and other topics.
@@ -42,6 +45,7 @@ go inside the folder by typing cd basic_react.
 type npm run build - it will create a folder with files of static , html, manifest.json.
 
 // now we will use the vite react to creat the app :-
+(use this link for reference :- https://vitejs.dev/guide/)
 
 type the code :- npm create vite@latest
 check the name the project , choose React , select Javascript.
@@ -66,7 +70,9 @@ write a bsaic html header code and see if it runs .
 follow the same steps as we did earlier for opening.
 
 open new terminal
+
 cd basic_react
+
 npm run start  
 
 // making changes in react app :-
@@ -77,6 +83,35 @@ import that function in "App.js"
 
 while importing the import Basic from "./basic" the second basic should be with small letters.
 
+
+// useage of talwind CSS with vite react project :-
+(use this link for reference :- https://tailwindcss.com/docs/guides/vite)
+
+use the algorithm : npm install -D tailwindcss postcss autoprefixer
+
+Running npm install -D tailwindcss postcss autoprefixer installs Tailwind CSS, PostCSS, and Autoprefixer as development dependencies. Here's a step-by-step explanation:
+
+"npm install: The command used to install dependencies" :-
+
+1) -D: The flag to install the packages as development dependencies.
+
+2) tailwindcss: The Tailwind CSS framework.
+
+3) postcss: A tool for transforming CSS with JavaScript plugins.
+
+4) autoprefixer: A PostCSS plugin to parse CSS and add vendor prefixes to CSS rules.
+
+"npx tailwindcss init -p" :-
+
+Running npx tailwindcss init -p initializes a new Tailwind CSS configuration file with support for PostCSS. 
+Here’s what the command does step-by-step:
+
+1) npx: Executes a package from the npm registry.
+2) tailwindcss: Specifies the Tailwind CSS package.
+3) init: Initializes a new configuration file.
+4) -p: Creates a postcss.config.js file in addition to the tailwind.config.js file.
+
+After that copy the code given in the website , and follow it in sincronize order .
 
 
 
